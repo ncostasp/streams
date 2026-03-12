@@ -35,4 +35,8 @@ public class Libro {
         this.numPaginas = numPaginas;
     }
 
+    @Override
+    public String toString() {
+        return titulo;
+    }
 }
